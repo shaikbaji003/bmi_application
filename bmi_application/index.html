@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+  <title>BMI Calculator</title>
+</head>
+<body>
+  <main class="main-container">
+    <i class="fa-solid fa-3x fa-calculator"></i>
+    <h1 class="title">BMI Calculator</h1>
+    <p class="subtitle">Enter your weight and height below to calculate your Body Mass Index (BMI).</p>
+    <div class="form-container">
+      <div class="input-group">
+        <label for="weight">Weight</label>
+        <input type="number" id="weight" placeholder="e.g., 70" />
+        <span class="unit">kg</span>
+      </div>
+      <div class="input-group">
+        <label for="height">Height</label>
+        <input type="number" id="height" placeholder="e.g., 170" />
+        <span class="unit">cm</span>
+      </div>
+      <button id="calculate-btn">Calculate BMI</button>
+    </div>
+    <div class="result-card" id="result-card" style="display: none;">
+      <h2>Your BMI Result</h2>
+      <div class="bmi-value" id="bmi-value">0.0</div>
+      <div class="bmi-category" id="bmi-category"></div>
+      <div class="bmi-info">
+        <p>Underweight: &lt; 18.5</p>
+        <p>Normal weight: 18.5 – 24.9</p>
+        <p>Overweight: 25 – 29.9</p>
+        <p>Obesity: BMI of 30 or greater</p>
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</

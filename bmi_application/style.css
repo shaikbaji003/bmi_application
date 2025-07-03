@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+  color: #333;
+}
+
+.main-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 0.80rem;
+  color: grey;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group label {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  padding-right: 3rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+}
+
+
+
+.unit {
+  position: absolute;
+  right: 10px;
+  top: 38px;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+button {
+  padding: 0.75rem;
+  background: #007BFF;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #207de1;
+  border: 2px solid #007BFF;
+}
+
+.result-card {
+  background: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 8px;
+    box-shadow: 2 5 20px rgba(192, 186, 186, 0.05);
+}
+
+.result-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.bmi-value {
+  font-size: 4.5rem;
+  font-weight: bolder;
+  color: #ce880ee7; 
+  margin-bottom: 0.5rem;
+
+}
+
+.bmi-category {
+     color: #eda730c1;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.bmi-info p {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.fa-calculator{
+    color: #007BFF;
+
+}
+
